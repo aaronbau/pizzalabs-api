@@ -9,12 +9,7 @@ var orderSchema = new mongoose.Schema({
 	notes: String,
 	status: String,
 	order: [{
-		pizzas: [{
-			dough: String,
-			cheeses: [{ name: String }],
-			meats: [{ name: String }],
-			vegetables: [{ name: String }]
-		}]
+		pizza: String
 	}] 
 });
 
