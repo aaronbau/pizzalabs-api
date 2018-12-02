@@ -2,18 +2,13 @@
   "name": "pizzalabs-api",
   "version": "1.0.0",
   "description": "An API for PizzaLabs LLC",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aarontbautista/pizzalabs-api.git"
-  },
   "author": "Aaron Bautista",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aarontbautista/pizzalabs-api/issues"
+  "scripts": {
+    "start": "node server.js"
   },
-  "homepage": "https://github.com/aarontbautista/pizzalabs-api#readme"
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.7"
+  }
 }
