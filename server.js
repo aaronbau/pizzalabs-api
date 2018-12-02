@@ -9,3 +9,7 @@ var server= app.listen(port, listening);
 function listening() {
 	console.log('listening. . .');
 }
+
+app.get('/', function(request, response) {
+	response.send("Server is running on port " + port);
+})
