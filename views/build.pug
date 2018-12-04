@@ -1,0 +1,22 @@
+head
+	script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+	script(src="js/build-script.js")
+
+	title PizzaLabs - Build
+
+body
+	p Build module
+
+	form(method="get")
+		button(formaction="/") PizzaLabs		
+		button(formaction="/cart") Back to cart
+		button(formaction="/cart") Done
+
+	div#doughsdiv
+		h2 Doughs
+	div#cheesesdiv
+		h2 Cheeses
+	div#meatsdiv
+		h2 Meats
+	div#vegetablesdiv
+		h2 Vegetables
